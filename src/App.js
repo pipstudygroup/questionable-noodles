@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
-
 
 const App = () => {
   // using a react hook
   const [currentLunchLocation, setCurrentLunchLocation] = useState('Click the Button');
-  console.log('current', currentLunchLocation);
+  
   const restaurants = [
     'Demassis',
     'Benihanas',
