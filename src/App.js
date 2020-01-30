@@ -8,7 +8,7 @@ const App = () => {
     'Demassis',
     'Benihana\'s',
     'Perry\'s',
-    'Freebird\'s',
+    'Freebirds',
     'Chipotle',
     'LA Burger'
   ]
