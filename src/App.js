@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './App.css';
 
 const App = () => {
-  // using a react hook
   const [currentLunchLocation, setCurrentLunchLocation] = useState('Click the Button');
   
   const restaurants = [
