@@ -6,7 +6,7 @@ const App = () => {
 
   const restaurants = [
     'Dimassi\'s',
-    'Benihana\'s',
+    'Benihana',
     'Perry\'s',
     'Freebirds',
     'Chipotle',
