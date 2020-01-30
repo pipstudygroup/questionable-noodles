@@ -5,7 +5,7 @@ const App = () => {
   const [currentLunchLocation, setCurrentLunchLocation] = useState('Click the Button');
 
   const restaurants = [
-    'Demassis',
+    'Dimassi\'s',
     'Benihana\'s',
     'Perry\'s',
     'Freebirds',
