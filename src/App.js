@@ -1,24 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 
-function App() {
+const App = () => {
+  const [currentLunchLocation, setCurrentLunchLocation] = useState('Click the Button');
+  
+  const restaurants = [
+    'Demassis',
+    'Benihanas',
+    'Perrys',
+    'Freebirds',
+    'Chipolte',
+    'La Burger'
+  ]
+  const lunchLotto = () => {
+    let randomIndex = Math.floor(Math.random() * restaurants.length);
+    setCurrentLunchLocation(restaurants[randomIndex]);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>
+        {currentLunchLocation}
+      </h2>
+      <button onClick={()=>{ lunchLotto() }} style={{backgroundColor: 'purple', color: 'white'}}>Where to Lunch?</button>
     </div>
   );
 }
