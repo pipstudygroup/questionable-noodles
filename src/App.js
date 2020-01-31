@@ -17,7 +17,7 @@ const App = () => {
     },
     {
       name: 'Jay L',
-      isAttending: false,
+      isAttending: true,
       hates: ['Slim Chickens']
     },
     {
@@ -91,7 +91,7 @@ const App = () => {
       <button onClick={()=>{ lunchLotto() }} style={{backgroundColor: 'purple', color: 'white'}}>Where to Lunch?</button>
       {people.map(function(person, index) {
         return <div>
-          {person.name} <input type="checkbox" onChange={() => {updateAttendance(index)}}></input>
+          {person.name} <input type="checkbox" onChange={() => {updateAttendance(index)}} checked={person.isAttending ? "true" : ""}></input>
         {person.isAttending ? ` Hates: ${person.hates.join(', ')}` : ''}
       </div>
       })}
