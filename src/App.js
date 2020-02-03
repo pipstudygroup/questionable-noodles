@@ -3,14 +3,14 @@ import './App.css';
 
 const App = () => {
   const [currentLunchLocation, setCurrentLunchLocation] = useState('Click the Button');
-  
+
   const restaurants = [
-    'Demassis',
-    'Benihanas',
-    'Perrys',
+    'Dimassi\'s',
+    'Benihana',
+    'Perry\'s',
     'Freebirds',
-    'Chipolte',
-    'La Burger'
+    'Chipotle',
+    'LA Burger'
   ]
   const lunchLotto = () => {
     let randomIndex = Math.floor(Math.random() * restaurants.length);
