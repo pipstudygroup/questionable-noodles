@@ -8,13 +8,13 @@ const App = () => {
     {
       name: 'Kalee',
       isAttending: false,
-      hates: ['Snappy Salads', 'Little Katana', 'Fish City Grill'],
-      loves: ['LA Burger', 'Yummy Thai', 'Dimassi\'s', 'CJ\'s Bulgogi Grill']
+      hates: ['Snappy Salads', 'Little Katana', 'Fish City Grill', 'Bread Zeppelin', 'Salata', 'Fortune House', 'Torchy\'s'],
+      loves: ['LA Burger', 'Yummy Thai', 'Dimassi\'s', 'Chilli Thai', 'Fast and Furious', 'CJ\'s Bulgogi Grill']
     },
     {
       name: 'Maxwell',
       isAttending: false,
-      hates: ['Dimassi\'s', 'Chipotle', 'Mattito\'s'],
+      hates: ['Dimassi\'s', 'Chipotle', 'Mattito\'s', 'Masala Wok'],
       loves: ['Little Katana', 'Lamberti\'s', 'CJ\'s Bulgogi Grill']
     },
     {
@@ -26,8 +26,8 @@ const App = () => {
     {
       name: 'Rajal',
       isAttending: false,
-      hates: [],
-      loves: ['Dimassi\'s', 'CJ\'s Bulgogi Grill']
+      hates: ['Little Katana', 'Chipotle', 'Bread Zeppelin', 'Mattito\'s'],
+      loves: ['Dimassi\'s', 'Kabobs to Go', 'CJ\'s Bulgogi Grill', 'Fortune House', 'Pie Five', 'Amravati', 'Fast and Furious', 'Torchy\'s']
     },
     {
       name: 'Arkesha',
@@ -38,14 +38,14 @@ const App = () => {
     {
       name: 'Tambria',
       isAttending: false,
-      hates: [],
-      loves: ['Dimassi\'s', 'Lamberti\'s', 'Buffalo Wild Wings']
+      hates: ['Chilli Thai'],
+      loves: ['54th Street', 'Lamberti\'s', 'Boston\'s Pizza']
     },
     {
       name: 'Haile',
       isAttending: false,
       hates: ['Fish City Grill'],
-      loves: ['Chilli Thai', 'Dimassi\'s',]
+      loves: ['Chilli Thai', 'Dimassi\'s', 'Whataburger', 'In and Out Burger']
     },
     {
       name: 'Arindam',
@@ -56,6 +56,15 @@ const App = () => {
   ];
   const restaurants = [
     'Dimassi\'s',
+    'Whataburger',
+    '54th Street',
+    'Bread Zeppelin',
+    'Salata',
+    'Boston\'s Pizza',
+    'Fast and Furious',
+    'In and Out Burger',
+    'Pie Five',
+    'Masala Wok',
     'Benihana',
     'Perry\'s',
     'Freebirds',
@@ -70,7 +79,9 @@ const App = () => {
     'Mattito\'s',
     'Little Katana',
     'Fish City Grill',
-    'Lamberti\'s'
+    'Lamberti\'s',
+    'Amravati',
+    'Kabobs to Go'
   ];
   const [people, setPeople] = useState(peopleManifest);
   const lunchLotto = () => {
@@ -86,7 +97,7 @@ const App = () => {
     console.log(restaurantsLovedByAttendees);
 
     eligibleRestaurants = eligibleRestaurants.concat(restaurantsHatedByAbsentees);
-    eligibleRestaurants = eligibleRestaurants.concat(restaurantsLovedByAttendees);
+    eligibleRestaurants = eligibleRestaurants.concat(restaurantsLovedByAttendees).concat(restaurantsLovedByAttendees).concat(restaurantsLovedByAttendees);
     console.log('eligibleRestaurants')
     console.log(eligibleRestaurants);
 
