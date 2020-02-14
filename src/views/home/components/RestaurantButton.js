@@ -1,8 +1,10 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import useGlobal from './../../../utils/store/stateManager'
 
 import getEligibleRestaurants from './../../../utils/restaurantGen';
+
+import Button from '@material-ui/core/Button';
 
 const RestaurantButton = () => {
     const [globalState, globalActions] = useGlobal();
@@ -16,9 +18,14 @@ const RestaurantButton = () => {
     }
     
     return (
-        <Fragment>
-            <button onClick={()=>{ lunchLotto() }} style={{backgroundColor: 'purple', color: 'white'}}>Where to Lunch?</button>
-        </Fragment>
+        <Button 
+            onClick={()=>{ lunchLotto() }} 
+            style={{backgroundColor: 'purple', color: 'white'}}
+            size="medium"
+            variant="outlined"
+        >
+            Where to For Lunch?
+        </Button>
     )
 }
 
