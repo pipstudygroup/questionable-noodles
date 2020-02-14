@@ -1,0 +1,61 @@
+[ 
+    { 
+       "name":"Kalee",
+       "isAttending":false,
+       "hates":[ 
+          "Snappy Salads",
+          "Little Katana"
+       ]
+    },
+    { 
+       "name":"Maxwell",
+       "isAttending":false,
+       "hates":[ 
+          "Dimassi's",
+          "Chipotle",
+          "Mattito's"
+       ]
+    },
+    { 
+       "name":"Jay L",
+       "isAttending":true,
+       "hates":[ 
+          "Slim Chickens"
+       ]
+    },
+    { 
+       "name":"Rajal",
+       "isAttending":false,
+       "hates":[ 
+ 
+       ]
+    },
+    { 
+       "name":"Arkesha",
+       "isAttending":false,
+       "hates":[ 
+          "LA Burger"
+       ]
+    },
+    { 
+       "name":"Tambria",
+       "isAttending":false,
+       "hates":[ 
+ 
+       ]
+    },
+    { 
+       "name":"Haile",
+       "isAttending":false,
+       "hates":[ 
+          "Fish City Grill"
+       ]
+    },
+    { 
+       "name":"Arindam",
+       "isAttending":false,
+       "hates":[ 
+          "Lamberti's"
+       ]
+    }
+ ]
