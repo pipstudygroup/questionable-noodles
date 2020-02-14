@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import useGlobal from '../../utils/store/stateManager'
+import useGlobal from './../../../utils/store/stateManager'
 
 const RestaurantName = () => { 
     const [globalState] = useGlobal();

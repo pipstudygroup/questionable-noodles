@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 
-import RestaurantName from  './RestaurantName'
-import RestaurantButton from './RestaurantButton'
-import NamesList from './NamesList'
+import RestaurantName from  './components/RestaurantName'
+import RestaurantButton from './components/RestaurantButton'
+import AttendanceList from './components/AttendanceList'
 
 
 function Home() {
@@ -10,7 +10,7 @@ function Home() {
         <Fragment>
           <RestaurantName/>
           <RestaurantButton/>
-          <NamesList/>
+          <AttendanceList/>
         </Fragment>
       );
 }
