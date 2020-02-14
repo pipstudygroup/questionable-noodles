@@ -46,12 +46,14 @@ const App = () => {
       hates: ['Lamberti\'s']
     }
   ];
+
   const restaurants = [
     'Dimassi\'s',
     'Benihana',
     'Perry\'s',
     'Freebirds',
     'Chipotle',
+
     'LA Burger',
     'Snappy Salads',
     'Slim Chickens',
@@ -65,6 +67,7 @@ const App = () => {
     'Lamberti\'s'
   ];
   const [people, setPeople] = useState(peopleManifest);
+
   const lunchLotto = () => {
     let eligibleRestaurants = restaurants.filter(function(restaurant){
       return people.filter(function(person){
