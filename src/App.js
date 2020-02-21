@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from 'react';
 import './App.css';
-import LunchLotto from './pages/LunchLotto/LunchLotto';
+import LunchLotto from './pages/LunchLotto';
 
 const App = () => {
 
