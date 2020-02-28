@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/questionable-noodles/static/css/main.4eba1363.chunk.css",
+    "main.js": "/questionable-noodles/static/js/main.446f5e67.chunk.js",
+    "main.js.map": "/questionable-noodles/static/js/main.446f5e67.chunk.js.map",
+    "runtime-main.js": "/questionable-noodles/static/js/runtime-main.c6c60bbe.js",
+    "runtime-main.js.map": "/questionable-noodles/static/js/runtime-main.c6c60bbe.js.map",
+    "static/js/2.c5256e74.chunk.js": "/questionable-noodles/static/js/2.c5256e74.chunk.js",
+    "static/js/2.c5256e74.chunk.js.map": "/questionable-noodles/static/js/2.c5256e74.chunk.js.map",
+    "index.html": "/questionable-noodles/index.html",
+    "precache-manifest.46ab56b24481bab50e580d3f546cdfd5.js": "/questionable-noodles/precache-manifest.46ab56b24481bab50e580d3f546cdfd5.js",
+    "service-worker.js": "/questionable-noodles/service-worker.js",
+    "static/css/main.4eba1363.chunk.css.map": "/questionable-noodles/static/css/main.4eba1363.chunk.css.map",
+    "static/js/2.c5256e74.chunk.js.LICENSE": "/questionable-noodles/static/js/2.c5256e74.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6c60bbe.js",
+    "static/js/2.c5256e74.chunk.js",
+    "static/css/main.4eba1363.chunk.css",
+    "static/js/main.446f5e67.chunk.js"
+  ]
+}
