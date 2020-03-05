@@ -1,12 +1,19 @@
-import React, { Fragment, useState } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import LunchLotto from './pages/LunchLotto';
-
+import { Profile } from './components/Profile/Profile';
+import { NavBar } from './components/NavBar';
 const App = () => {
-
   return (
     <div className="App">
-      < LunchLotto />
+      <Router>
+        <NavBar />
+        <Switch>
+          <Route path='/' exact component={LunchLotto} />
+          <Route path='/profile' component={Profile} />
+        </Switch>
+      </Router>
     </div>
   );
 }
