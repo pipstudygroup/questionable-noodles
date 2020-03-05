@@ -4,7 +4,7 @@ import './App.css';
 import LunchLotto from './pages/LunchLotto';
 import { Profile } from './components/Profile/Profile';
 import { NavBar } from './components/NavBar';
-const App = (props) => {
+const App = () => {
   return (
     <div className="App">
       <Router>
